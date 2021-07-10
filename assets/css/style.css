@@ -1,14 +1,17 @@
 * {
+    /* Sets certain conditions mentioned to the entire web page */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* Sets the color of the body */
     background-color: #d9dcd6;
 }
 
 .header {
+    /* Sets the fonts and the color of this section */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,18 @@ body {
 }
 
 .header h1 {
+    /* Sets inline block level elements and font size in this section */
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /* Sets a different color for the specific letters in this section */
     color: #d9dcd6;
 }
 
 .header div {
+    /* Sets font size, font family and makes the header div float to the right in this section */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,24 +39,29 @@ body {
 }
 
 .header div ul {
+    /* Sets style of list type */
     list-style-type: none;
 }
 
 .header div ul li {
+    /* Sets inline block level display and margin */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* Uses hex codes to define colors */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* Defines the font size */
     font-size: 16px;
 }
 
 .hero {
+    /* Sets the background size, image and certain other dimensions in this section */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,22 +71,26 @@ p {
 }
 
 .float-left {
+    /* Sets the float criteria and margin in this section */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* Sets the float criteria and margin in this section */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* Sets the display to inline block and sets the margin */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /* Sets background color, float criteria and font family in this section */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,54 +102,64 @@ p {
 }
 
 .benefit-lead {
+    /* Sets color and bottom margin in this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /* Sets color and bottom margin in this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /* Sets color and bottom margin in this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h5 {
+    /* Sets bottom margin and aligns texts in this section */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h6 {
+    /* Sets bottom margin and aligns texts in this section */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit-cost h6 {
+    /* Sets bottom margin and aligns texts in this section */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /* Sets maximum width, margin and display block level in this section */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
+    /* Sets maximum width, margin and display block level in this section */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /* Sets maximum width, margin and display block level in this section */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .search-engine-optimization {
+    /* Sets font family, color, margin, height and padding in this section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +169,7 @@ p {
 }
 
 .online-reputation-management {
+    /* Sets font family, color, margin, height and padding in this section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +179,7 @@ p {
 }
 
 .social-media-marketing {
+    /* Sets font family, color, margin, height and padding in this section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,33 +189,40 @@ p {
 }
 
 .search-engine-optimization img {
+    /* Sets maximum height in this section */
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /* Sets maximum height in this section */
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /* Sets maximum height in this section */
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+    /* Sets font size and bottom margin in this section */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
+    /* Sets font size and bottom margin in this section */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
+    /* Sets font size and bottom margin in this section */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .footer {
+    /* Sets font family, padding and aligns texts in this section */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +230,6 @@ p {
 }
 
 .footer h2 {
+    /* Sets footer font size in this section */
     font-size: 20px;
 }
