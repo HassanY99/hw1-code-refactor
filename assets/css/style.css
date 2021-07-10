@@ -101,57 +101,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-common {
     /* Sets color and bottom margin in this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    /* Sets color and bottom margin in this section */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    /* Sets color and bottom margin in this section */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h5 {
+.benefit-common h5 {
     /* Sets bottom margin and aligns texts in this section */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h6 {
+.benefit-common h6 {
     /* Sets bottom margin and aligns texts in this section */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h6 {
-    /* Sets bottom margin and aligns texts in this section */
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    /* Sets maximum width, margin and display block level in this section */
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    /* Sets maximum width, margin and display block level in this section */
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-common img {
     /* Sets maximum width, margin and display block level in this section */
     display: block;
     margin: 10px auto;
